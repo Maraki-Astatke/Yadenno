@@ -92,7 +92,7 @@ const Hero = () => {
       id: 'pressure',
       name: 'UPVC Pressure Pipe',
       description: 'Our orange-line pipe is built for water-supply applications where consistent pressure rating matters. Socketed A-style ends give a fast, reliable joint on site.',
-      image: '/src/assets/pvc-orange.jpeg',
+      image: '/pvc-orange.jpeg',
       tag: 'PRESSURE LINE',
       tagColor: 'bg-primary-navy',
       imageBg: 'from-primary-green/5 to-primary-navy/5'
@@ -101,7 +101,7 @@ const Hero = () => {
       id: 'drainage',
       name: 'UPVC Drainage Pipe',
       description: 'The grey-line finish suits drainage and sewage runs, with the same joint system and diameter range as our pressure line for straightforward specification.',
-      image: '/src/assets/pvc-grey.jpeg',
+      image: '/pvc-grey.jpeg',
       tag: 'DRAINAGE LINE',
       tagColor: 'bg-gray-700',
       imageBg: 'from-gray-100 to-gray-200/50'
