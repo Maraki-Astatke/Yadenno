@@ -1,0 +1,97 @@
+{
+    "nav": {
+        "home": "Home",
+        "products": "Products",
+        "about": "About",
+        "contact": "Contact",
+        "quote": "Request a quote"
+    },
+    "hero": {
+        "badge": "Manufactured in Sheger City, Ethiopia",
+        "title": "Pipe systems built for pressure,",
+        "highlight": "not compromise.",
+        "description": "Yadenno Plastics PLC manufactures UPVC pressure and drainage pipes from our Tatek Industry Zone facility — engineered to PN4 through PN16 pressure classes across a 50–250mm diameter range.",
+        "cta1": "View our pipe range",
+        "cta2": "Talk to our team",
+        "spec": "UPVC / SPEC PLATE",
+        "specId": "YDN—01"
+    },
+    "stats": [
+        {
+            "label": "pressure classes",
+            "detail": "PN4 to PN16"
+        },
+        {
+            "label": "millimetre diameter range",
+            "detail": "Full coverage"
+        },
+        {
+            "label": "manufacturing & distribution sites",
+            "detail": "Nationwide reach"
+        },
+        {
+            "label": "factory, full technical support",
+            "detail": "End-to-end service"
+        }
+    ],
+    "features": {
+        "title": "From resin to ready pipe, under one roof",
+        "subtitle": "We manufacture, distribute, and support UPVC pipe systems for water supply and drainage projects across Ethiopia — built to hold pressure and built to reach site on schedule.",
+        "cards": [
+            {
+                "title": "High-quality manufacturing",
+                "description": "Every run is produced to PN pressure-class tolerance at our Tatek facility, with consistent wall thickness and joint fit across the full diameter range."
+            },
+            {
+                "title": "Reliable distribution",
+                "description": "Stock moves from our factory in Sheger City through our Addis Ababa office, keeping contractors and distributors supplied on a dependable schedule."
+            },
+            {
+                "title": "Technical support",
+                "description": "Our team helps you choose the right pressure class and diameter for the job, and is on hand for installation and specification questions."
+            }
+        ]
+    },
+    "products": {
+        "title": "UPVC pipe, in two builds",
+        "subtitle": "The same A-style socketed joint, produced in the finish your project calls for.",
+        "pressure": {
+            "name": "UPVC Pressure Pipe",
+            "description": "Our orange-line pipe is built for water-supply applications where consistent pressure rating matters. Socketed A-style ends give a fast, reliable joint on site.",
+            "tag": "PRESSURE LINE"
+        },
+        "drainage": {
+            "name": "UPVC Drainage Pipe",
+            "description": "The grey-line finish suits drainage and sewage runs, with the same joint system and diameter range as our pressure line for straightforward specification.",
+            "tag": "DRAINAGE LINE"
+        },
+        "specs": "See full specifications",
+        "pn": [
+            "PN4",
+            "PN6",
+            "PN10",
+            "PN16"
+        ],
+        "diameter": "50–250mm",
+        "joint": "A-style",
+        "diameterLabel": "diameter",
+        "jointLabel": "socket joint"
+    },
+    "cta": {
+        "title": "Sourcing pipe for a project?",
+        "description": "Tell us your pressure class, diameter, and quantity — our technical team will confirm availability and lead time.",
+        "button": "Request a quote"
+    },
+    "footer": {
+        "description": "Yadenno Plastics PLC manufactures UPVC pipe systems from our factory in Sheger City, Ethiopia, for water supply and drainage projects nationwide.",
+        "quickLinks": "Quick Links",
+        "contact": "Contact",
+        "rights": "All rights reserved.",
+        "location": "Sheger City · Addis Ababa, Ethiopia"
+    },
+    "common": {
+        "phone": "+251 961 36 36 36",
+        "email": "yadennoplc@gmail.com",
+        "address": "Tatek Industry Zone, Sheger City"
+    }
+}

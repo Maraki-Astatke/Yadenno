@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+/* Enable class-based dark mode for manual toggling */
+@variant dark (&:where(.dark, .dark *));
+
+/* Custom theme configuration for Tailwind CSS v4 */
+@theme {
+  /* Brand Colors */
+  --color-primary-green: #79B62F;
+  --color-primary-navy: #16225C;
+  
+  /* Font Families */
+  --font-inter: "Inter", sans-serif;
+  --font-mono: "Roboto Mono", monospace;
+}
+
+/* Base styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-inter);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  html.dark body {
+    color: #f3f4f6;
+    background-color: #0f172a;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-inter);
+    font-weight: 700;
+  }
+}
+
+/* Utility classes */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
