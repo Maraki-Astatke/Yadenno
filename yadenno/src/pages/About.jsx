@@ -192,7 +192,7 @@ const About = () => {
                 type: 'Main office',
                 title: 'Addis Ababa',
                 address: 'Mexico, Sengatera Traders Union Building<br />Ethiopia',
-                borderColor: 'border-l-4 border-orange-400'
+                borderColor: 'border-l-4 border-primary-navy'
               }
             ].map((location, index) => (
               <motion.div

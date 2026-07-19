@@ -402,39 +402,8 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* CTA Section - Quick Quote */}
-      <section className="relative overflow-hidden py-16 md:py-20 bg-white dark:bg-gray-800 transition-colors duration-300">
-        <div className="container mx-auto px-4">
-          <div className="relative bg-primary-navy dark:bg-gray-900 rounded-3xl p-10 md:p-16 overflow-hidden border border-transparent dark:border-gray-700">
-            <div className="absolute inset-0 opacity-10">
-              <div className="absolute -top-20 -right-20 w-80 h-80 bg-primary-green rounded-full blur-3xl"></div>
-              <div className="absolute -bottom-20 -left-20 w-80 h-80 bg-white rounded-full blur-3xl"></div>
-            </div>
-
-            <div className="absolute inset-0 opacity-5" style={{
-              backgroundImage: `radial-gradient(circle at 20px 20px, #ffffff 1px, transparent 1px)`,
-              backgroundSize: '40px 40px'
-            }}></div>
-
-            <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
-              <div>
-                <h2 className="text-2xl md:text-4xl font-inter font-extrabold text-white mb-3">
-                  Ready to order?
-                </h2>
-                <p className="text-white/80 text-base md:text-lg leading-relaxed max-w-xl">
-                  Get a quick quote for your project — tell us your pressure class, diameter, and quantity.
-                </p>
-              </div>
-              <Link
-                to="/contact"
-                className="bg-primary-green text-primary-navy px-10 py-4 rounded-full font-bold text-base hover:bg-opacity-90 transition-all shadow-lg hover:shadow-xl hover:scale-105 transform duration-300 whitespace-nowrap flex-shrink-0"
-              >
-                Request a quote
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+      
+     
     </motion.div>
   );
 };
